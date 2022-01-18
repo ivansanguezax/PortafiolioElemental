@@ -23,6 +23,32 @@ li, ul, ol{
     padding-inline-start: 0px;
 }
 
+/* Section Style */
+.about,
+.skills,
+.portafolio,
+.contacto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:39px 0px;
+}
+
+.section-title{
+    width: 190px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--verde);
+    text-align: center;
+}
+.section-title h1{
+    margin: 0;
+    font-size:35px;
+    font-weight:700;
+}
+
+
+
+
 header{
     background-color: var(--negro);
     display: flex;
@@ -111,4 +137,49 @@ main::before{
     font-size:60px;
     font-weight:700;
     margin: 0;
+}
+
+/* =======Final Main======= */
+
+.about-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 74px;
+}
+.about-description{
+    width: 562px;
+    margin-right: 85px;
+    text-align: justify;
+}
+.about-description h5{
+    font-size: 19px;
+    font-weight:700;
+    color: var(--plomo);
+}
+.about-description h1{
+    font-size:35px;
+    font-weight:700;
+}
+.about-description p{
+    font-size:16px;
+    font-weight:400;
+    color: var(--plomo)
+}
+
+.about-description button{
+    background-color: var(--verde);
+    padding:13px 16px;
+    color: var(--negro);
+    border:none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-description button:hover{
+    color: var(--verde);
+    background-color: var(--negro);
+    text-decoration: underline;
 }
