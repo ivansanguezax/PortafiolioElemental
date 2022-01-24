@@ -277,4 +277,54 @@ main::before{
     align-items:center;
 
 }
+/* Contacto */
+
+.contacto-botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contacto-botones a{
+    margin-top:48px;
+    background-color: #191919;
+    color:var(--light-color);
+    width: 200px;
+    padding: 30px 0px 15px;
+    margin-right:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.contacto-botones a:last-child{
+    margin-right:0;
+}
+.contacto-botones a:hover{
+    color: var(--primary-color);
+}
+.contacto-botones i{
+    font-size: 50px;
+}
+.contacto-botones h4{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 10px 0px;
+    border-top: 1px solid var(--light-color)
+}
+footer h1{
+    font-weight: bold;
+    font-size: 16px;
+}
+footer a{
+    color: var(--primary-color);
+}
 
