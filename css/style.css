@@ -1,3 +1,5 @@
+@import url(media-queries.css);
+
 :root{
     --blanco: #F2F2F2;
     --verde: #CEFE1A;
@@ -70,7 +72,7 @@ header{
     font-weight: 400;
     margin-left: 10px;
 }
-.header-menu ol{
+.header-menu ul{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,6 +89,9 @@ header{
 }
 .header-menu a:hover{
     color: var(--verde)
+}
+.close, .hamburger{
+    display: none;
 }
 
 /* =======Final Header======= */

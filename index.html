@@ -13,6 +13,9 @@
     <!-- Hoja de CSS Principal -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Hoja de CSS Media Queries -->
+    <link rel="stylesheet" href="css/media-queries.css">
+
     <title>Portafolio Elemental</title>
   </head>
 
@@ -24,8 +27,8 @@
         <img src="assets/png/logo.png" alt="Logo" />
         <h1>Nombre Persona</h1>
       </div>
-      <nav class="header-menu">
-        <ol>
+      <nav class="header-menu menu" >
+        <ul class="navbar" id="navbar">
           <li>
             <a href="#">Inicio</a>
           </li>
@@ -44,7 +47,13 @@
           <li>
             <a href="#">Contactame</a>
           </li>
-        </ol>
+          <a class="close" href="#">
+            <img src="https://ljc-dev.github.io/testing0/ham-close.svg" alt="close">
+          </a>
+        </ul>
+        <a href="#navbar" class="hamburger">
+          <img src="https://ljc-dev.github.io/testing0/ham.svg" alt="menu">
+        </a>
       </nav>
     </header>
 
