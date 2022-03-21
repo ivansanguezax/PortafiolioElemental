@@ -257,7 +257,6 @@ main::before{
     text-align: center;
     margin-right: 80px;
     padding-bottom:4px;
-    border-bottom: 2px solid var(--verde);
 }
 
 .portafolio-menu a:last-child{
@@ -276,10 +275,7 @@ main::before{
 .item-portafolio{
     width: 400px;
     height: 273px;
-    background-color: var(--plomo);
-    display: flex;
-    justify-content:center;
-    align-items:center;
+    border: 3px solid var(--blanco);
 
 }
 /* Contacto */
